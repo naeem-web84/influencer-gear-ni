@@ -7,7 +7,7 @@
   font-style: normal;
 }
 
- 
+
 
 * {
   margin: 0;
@@ -105,10 +105,12 @@ nav li a {
   background-image: url(../images/Circle\ design.svg);
   background-repeat: no-repeat;
 }
-.camera-image img{
+
+.camera-image img {
   margin: 15px 0px 5px 20px;
 }
-.btn-1{
+
+.btn-1 {
   margin-top: 20px;
   padding: 20px 10px;
   border: none;
@@ -119,11 +121,11 @@ nav li a {
 
 
 /* LOGO */
-.logo-1{
+.logo-1 {
   margin-top: 130px;
   margin-bottom: 100px;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   box-shadow: 0px 4px 4px 0px rgba(36, 36, 36, 0.228);
 }
 
@@ -140,6 +142,7 @@ nav li a {
 /* MEDIA QUERY */
 /* SMALL DEVICE */
 @media screen and (max-width: 576px) {
+
   nav,
   nav ul {
     flex-direction: column;
@@ -149,32 +152,33 @@ nav li a {
 
   .camera {
     margin-top: 100px;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     flex-wrap: wrap-reverse;
   }
 
-  .camera-image img{
+  .camera-image img {
     width: 80%;
     margin: 30px auto;
   }
 
   .camera-content h3 {
-     width: 80%;
-     margin: 30px auto
-  }
-  
-  .camera-content p {
-     width: 80%;
-     margin: 30px auto
+    width: 80%;
+    margin: 30px auto
   }
 
-  .logo-1{
-    flex-wrap: wrap;
-    margin: 0px 10px;
+  .camera-content p {
+    width: 80%;
+    margin: 30px auto
   }
-   
+
+  .logo-1 {
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 10px auto
+  }
+
 }
 
 
@@ -191,30 +195,31 @@ nav li a {
 
   .camera {
     margin-top: 100px;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     flex-wrap: wrap-reverse;
   }
 
-  .camera-image img{
+  .camera-image img {
     width: 80%;
     margin: 30px auto;
   }
 
   .camera-content h3 {
-     width: 80%;
-     margin: 30px auto;
-  }
-  
-  .camera-content p {
-     width: 80%;
-     margin: 30px auto;
+    width: 80%;
+    margin: 30px auto;
   }
 
-  .logo-1{
+  .camera-content p {
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  .logo-1 {
     flex-wrap: wrap;
-    margin: 0px 10px;
+    width: 80%;
+    margin: 10px auto
   }
 }
 
@@ -234,29 +239,30 @@ nav li a {
 
   .camera {
     margin-top: 100px;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     flex-wrap: wrap-reverse;
   }
 
-  .camera-image img{
+  .camera-image img {
     width: 80%;
     margin: 30px auto;
   }
 
   .camera-content h3 {
-     width: 80%;
-     margin: 30px auto;
-  }
-  
-  .camera-content p {
-     width: 80%;
-     margin: 30px auto;
+    width: 80%;
+    margin: 30px auto;
   }
 
-  .logo-1{
-    flex-wrap: wrap;
-    margin: 0px 10px;
+  .camera-content p {
+    width: 80%;
+    margin: 30px auto;
   }
-} 
+
+  .logo-1 {
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 10px auto
+  }
+}
