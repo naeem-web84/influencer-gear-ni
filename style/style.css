@@ -59,6 +59,10 @@ footer {
   color: rgba(58, 58, 58, 1);
 }
 
+.box-shadow{
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
 
 /* HEADER SECTION */
 nav {
@@ -130,9 +134,44 @@ nav li a {
 }
 
 
+/* CARD SECTION */
 
+.container{
+  text-align: center;
+}
 
+.container h3{
+  font-weight: var(--font-semibold);
+  font-size: var(--font-size-24);
+  color: var(--heading-color-1);
+  margin-bottom: 60px;
+}
+ .card-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+ }
 
+ .box{
+  padding: 5px 7px;
+  border-radius: 7px;
+ }
+
+ .card-h3{
+  font-weight: var(--font-semibold);
+  font-size: var(--font-size-28);
+  color: var(--heading-color-2);
+ }
+.money{
+  font-size: var(--font-size-24);
+  counter-reset: var(--number-color);
+}
+
+ .description{
+  font-weight: var(--font-bold);
+  font-size: var(--font-size-14);
+  color: var(--para-color-1);
+ }
 
 
 
